@@ -1,0 +1,29 @@
+{
+  "name": "ghw-drawer",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://muitool.github.io/ghw-drawer",
+  "dependencies": {
+    "@material-ui/core": "^1.5.0",
+    "@material-ui/icons": "^2.0.2",
+    "autosuggest-highlight": "3.1.1",
+    "classnames": "latest",
+    "gh-pages": "^1.2.0",
+    "lodash": "latest",
+    "prop-types": "latest",
+    "react": "latest",
+    "react-autosuggest": "9.3.4",
+    "react-dom": "latest",
+    "react-markdown": "3.4.1",
+    "react-router-dom": "latest",
+    "react-scripts": "latest"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b gh-pages -d build"
+  }
+}
