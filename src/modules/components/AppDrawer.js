@@ -60,7 +60,11 @@ function reduceChildRoutes({ props, activePage, items, page, depth }) {
 
   if (page.children && page.children.length > 1) {
     const title = pageToTitle(page);
-    const openImmediately = activePage.pathname.indexOf(page.pathname) === 0;
+//  This next line of code needs to be commented out because activePage is null
+//  when you deply to gh-pages, and setting openImmediately to false
+//  does not appear to change the behavior of how AppDrawer works (very much)
+//  const openImmediately = activePage.pathname.indexOf(page.pathname) === 0;
+    const openImmediately = false;
 
     items.push(
       <AppDrawerNavItem depth={depth} key={title} openImmediately={openImmediately} title={title}>
