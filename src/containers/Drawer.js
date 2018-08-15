@@ -196,8 +196,6 @@ class Drawer extends React.Component {
           <Route path="/:repo/:view" component={CardWrapper} />
         </div>
 
-        <MarkdownViewWrapper view={markdownurl} />
-
       </div>
     );
   }
