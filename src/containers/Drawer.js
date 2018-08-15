@@ -19,10 +19,7 @@ import CardWrapper from "./../containers/GhCardWrapper";
 import Tooltip from '@material-ui/core/Tooltip';
 import GithubIcon from '@material-ui/docs/svgIcons/GitHub';
 
-import MarkdownViewWrapper from "./MarkdownViewWrapper"
-
-const markdownurl =
-  "https://raw.githubusercontent.com/stormasm/mui-tutorial-demo/master/ghw-drawer/README.md";
+import Home from "../components/Home";
 
 const styles = theme => ({
   root: {
@@ -193,6 +190,7 @@ class Drawer extends React.Component {
         </Typography>
 
         <div style={{ flex: 1, padding: "10px" }}>
+          <Route exact path="/" component={Home} />
           <Route path="/:repo/:view" component={CardWrapper} />
         </div>
 
