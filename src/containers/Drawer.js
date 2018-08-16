@@ -164,7 +164,7 @@ class Drawer extends React.Component {
                 className={classes.githubButton}
                 component="a"
                 color="inherit"
-                href="https://github.com/stormasm/ghw-drawer"
+                href="https://github.com/muitool/ghw-drawer"
                 aria-label="GitHub repository"
               >
                 <GithubIcon />
