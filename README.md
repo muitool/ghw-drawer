@@ -12,7 +12,7 @@ being the primary navigation element instead of the
 **[Drawer](https://material-ui.com/demos/drawers/)**
 
 This demo is an extension of
-[mui-drawer](https://github.com/stormasm/mui-tutorial-demo/tree/master/mui-drawer) and it is assumed that you have already reviewed the concepts and
+[mui-drawer](https://github.com/stormasm/mui-drawer) and it is assumed that you have already reviewed the concepts and
 documentation associated with that repo.
 
 ##### Code Details
