@@ -17,7 +17,7 @@ class MarkdownViewWrapper extends React.Component {
   }
 
   componentWillReceiveProps(nextProps) {
-    this.setState({ isLoading: true });
+    this.setState({ isLoading: false });
     this.setState({ viewName: nextProps.view });
 
     const url = nextProps.view;
