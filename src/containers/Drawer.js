@@ -190,8 +190,9 @@ class Drawer extends React.Component {
         </Typography>
 
         <div style={{ flex: 1, padding: "10px" }}>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/ghw-drawer" component={Home} />
           <Route path="/:repo/:view" component={CardWrapper} />
-          <Route path="*" component={Home} />
         </div>
 
       </div>
