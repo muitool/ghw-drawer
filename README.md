@@ -1,5 +1,5 @@
 
-### ghw-drawer
+## ghw-drawer
 
 Github Worlds drawer is a visualization toolkit that provides
 **Views** into JSON data that comes from the

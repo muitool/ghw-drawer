@@ -6,7 +6,6 @@ const markdownurl =
 
 const Home = () => (
   <div>
-    <h2>Home</h2>
     <MarkdownViewWrapper view={markdownurl} />
   </div>
 );
