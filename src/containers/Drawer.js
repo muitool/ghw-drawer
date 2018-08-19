@@ -24,8 +24,8 @@ import Home from "../components/Home";
 const styles = theme => ({
   root: {
     flexGrow: 1,
-    textAlign: "center",
-    paddingTop: theme.spacing.unit * 20
+    // textAlign: "center",
+    paddingTop: theme.spacing.unit * 10
   },
   flex: {
     flex: 1
@@ -181,13 +181,6 @@ class Drawer extends React.Component {
           onOpen={this.handleDrawerOpen}
           mobileOpen={this.state.mobileOpen}
         />
-
-        <Typography type="display1" gutterBottom>
-          Choose a Github Repository
-        </Typography>
-        <Typography type="subheading" gutterBottom>
-          and your favorite data view to explore further...
-        </Typography>
 
         <div style={{ flex: 1, padding: "10px" }}>
           <Route exact path="/" component={Home} />
