@@ -5,7 +5,7 @@ Github Worlds drawer is a visualization toolkit that provides
 **Views** into JSON data that comes from the
 [Github GraphQL API](https://developer.github.com/v4/).
 It is called Github Worlds **drawer** because there is also a
-Github Worlds **menu** which displays the same data and views
+**[Github Worlds menu](https://github.com/muitool/ghw-menu)** which displays the same data and views
 but with the
 **[Menu](https://material-ui.com/demos/menus/)**
 being the primary navigation element instead of the
