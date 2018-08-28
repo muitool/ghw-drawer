@@ -121,9 +121,7 @@ Now that you have things defined, its time to go out and
 [fetch](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)
 the data.  For now we are fetching static JSON files from a specific
 Github repo defined in the template above, but we could have just as easily fetched the data from the
-[Github GraphQL API](https://developer.github.com/v4/).  
-Or if you have other custom data views defined, your own GraphQL or
-REST endpoint.
+[Github GraphQL API](https://developer.github.com/v4/), or if you have other custom data views defined, your own GraphQL or REST endpoint.
 
 ### DataView
 
