@@ -23,12 +23,14 @@ Github Worlds is a set of repositories located inside this tutorial that shows s
 
 ## A Data Visualization Framework
 
-I am in the process of developing a simple generic data visualization
-framework in the context of a Material-UI tutorial with the main goal of
+We are in the process of developing a simple generic data visualization
+framework in the context of a
+**[Material-UI Tutorial](https://stormasm.github.io/mui-tutorial/)**
+with the main goal of
 using this framework as a test bed for elucidating different aspects of
 Material-UI.  So the tutorial and the framework will develop over time
-in parallel.  As more interesting aspects of the framework get developed
-the associated documentation teaching the Material-UI concepts of how it works will follow.
+in parallel.  As more interesting aspects of the framework get developed,
+the associated documentation teaching the Material-UI concepts will follow.
 
 ## The Overall Architecture of the Framework
 
@@ -40,17 +42,20 @@ The first example of this is a
 [Grid List](https://material-ui.com/demos/grid-list/) with
 [Cards](https://material-ui.com/demos/cards/) inside them.
 
-The JSON data comes from any API call or endpoint that returns JSON data.  The API call can be GraphQL, REST, or static JSON data sources such as JSON files sitting on your local disk or in your Github repo.
+The JSON data comes from any API call or endpoint that returns JSON data.  The API call can be GraphQL, REST, or static JSON data sources such as JSON files sitting on your local disk, your cloud server or inside your Github repo.
 
 ## Github World Views
 
-The tutorial repository for Ghw is called **ghw-drawer** and is
-[located here on Github](https://github.com/muitool/ghw-drawer).
+The tutorial repository for *ghw* is called **ghw-drawer** and is
+[located here on Github](https://github.com/muitool/ghw-drawer)
+or simply click on the Github icon in the upper right hand corner
+of the
+[AppBar](https://material-ui.com/demos/app-bar/).
 
-Github World (Ghw) is a set of views coming from the [Github API](https://developer.github.com/v4/).
+Github Worlds (ghw) is a set of views coming from the [Github GraphQL API](https://developer.github.com/v4/).
 Using this data visualization framework one can develop new views of data for repositories, users, statistics and anything else that can be derived from this data possibly in concert with other data sets.
 
-The data sets for Ghw are abstracted away from the underlying visualization so that the only thing needed to display the data is a JSON data file.  Eventually, we will provide a live view of the data coming from the Github API; but for now with simplicity being urgent we decided to only require JSON data sets.  The generation of the JSON data sets is described in another part of this document.  For now, we are providing a test set of JSON data files to better understand the structure of the data along with the program which interprets the data and a sample set of views.
+The data sets for *ghw* are abstracted away from the underlying visualization so that the only thing needed to display the data is a JSON data file.  Eventually, we might provide a live view of the data coming from the Github API; but for now with simplicity being urgent we decided to only require JSON data sets.  The generation of the JSON data sets is described in another section of the tutorial.  For now, we are providing a test set of JSON data files to better understand the structure of the data along with the program which interprets the data and a sample set of views.
 
 Users are welcome to generate out their own custom views along with the data sets to their liking.
 
