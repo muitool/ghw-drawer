@@ -73,7 +73,7 @@ In the current incarnation of the demo there are four views.
 Each view in the system is accessible via the Views menu.  The repo dropdown
 allows one to switch between different Github repositories while staying on the same view.  If you select a different repo the same view will be persistent.
 
-### DataView Examples
+### Data Structure Examples
 
 #### AppBar
 
