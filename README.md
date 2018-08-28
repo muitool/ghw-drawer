@@ -72,3 +72,34 @@ In the current incarnation of the demo there are four views.
 
 Each view in the system is accessible via the Views menu.  The repo dropdown
 allows one to switch between different Github repositories while staying on the same view.  If you select a different repo the same view will be persistent.
+
+### DataView Examples
+
+#### AppBar
+
+At the top of the hierarchy are ways to organize information or
+websites.  All websites need to have an
+[AppBar](https://material-ui.com/demos/app-bar/).  A nice example
+of an AppBar in action is the
+[Material-UI Home Page](https://material-ui.com/).
+There you will
+see the Icon button for drawer open and close.  In the repos
+in this tutorial you
+will see the same functionality.
+
+#### Gridlists
+
+The Gridlist is used to display a collection of Cards in both
+a single horizontal line and with six cards per row.
+
+#### Cards
+
+The cards in this demo contain different data types about
+each user that commits to a Github
+repository including:
+  * the user's name
+  * the user's location
+  * the user's username
+  * a link to the avatar of the user
+
+One can also grab data surrounding stars and forks as well.
