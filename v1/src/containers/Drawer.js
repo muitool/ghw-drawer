@@ -34,6 +34,9 @@ const styles = theme => ({
 
 const pages = [
   {
+    pathname: "/home",
+  },
+  {
     pathname: "/repo1",
     children: [
       {
@@ -184,6 +187,7 @@ class Drawer extends React.Component {
 
         <div style={{ flex: 1, padding: "10px" }}>
           <Route exact path="/" component={Home} />
+          <Route exact path="/home" component={Home} />
           <Route exact path="/ghw-drawer" component={Home} />
           <Route path="/:repo/:view" component={CardWrapper} />
         </div>

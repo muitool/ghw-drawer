@@ -4,8 +4,8 @@
   "private": true,
   "homepage": "https://muitool.github.io/ghw-drawer",
   "dependencies": {
-    "@material-ui/core": "^3.0.0",
-    "@material-ui/icons": "^3.0.0",
+    "@material-ui/core": "^3.0.1",
+    "@material-ui/icons": "^3.0.1",
     "autosuggest-highlight": "3.1.1",
     "classnames": "latest",
     "gh-pages": "^1.2.0",
