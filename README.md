@@ -15,12 +15,6 @@ This demo is an extension of
 [mui-drawer](https://stormasm.github.io/mui-drawer/) and it is assumed that you have already reviewed the concepts and
 documentation associated with that repo.
 
-### Github Worlds
-
-Github Worlds is a set of repositories located inside this tutorial that shows simple visualization techniques using Material-UI
-**[cards](https://material-ui.com/demos/cards/)**.  The idea behind the set of demos is that data is retrieved from the
-**[Github Graphql API](https://developer.github.com/v4/)** and stored in static JSON files which are then retrieved from some cloud server and displayed inside a data visualization of Github API endpoints.  Eventually, (in the future) this data might come live from the Graphql API but for now (in order to reduce complexity of the demo) we decided to use a simpler approach of static JSON files.
-
 ### A Data Visualization Framework
 
 We are in the process of developing a simple generic data visualization
